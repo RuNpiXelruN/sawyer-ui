@@ -1,0 +1,31 @@
+
+// Tree View
+// -------------------
+
+// Used to explore and open files in the current project.
+// Overrides: atom/tree-view
+
+
+
+
+.tree-view-resizer {
+  border-right: 1px solid @base-border-color;
+}
+
+.tree-view {
+  color: @text-color;
+  background-color: @tree-view-background-color;
+
+  .header {
+    background: rgba(168, 229, 255, 0.89);
+    padding-left: 30px;
+    color: #3e3e3e;
+    margin: 5px 0;
+    margin-left: -30px;
+    margin-right: -10px;
+  }
+
+  .list-item.selected {
+    color: @text-color-selected;
+  }
+}
